@@ -1,0 +1,139 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 90%;
+    margin: auto;
+}
+/*main*/
+
+.main {
+    width: auto;
+    height: 100vh;
+    background-image: url("./Untitled-2.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.header {
+    padding-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.header .left {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.header .circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    border: 1px solid #1d0fa1;
+    background-color: #170dd8;
+}
+.header h2 {
+    color: #170d7f;
+    margin-left: 5px;
+}
+.header button {
+    color: white;
+    border: none;
+    outline: none;
+    padding: 10px 12px;
+    border-radius: 20px;
+    background-color: #1916e7;
+}
+.part-2 {
+    width: 40%;
+    margin-left: 10%; 
+    margin-top: 200px;
+}
+.part-2 h5 {
+    color: #7b7e7f;
+    margin-bottom: 20px;
+}
+.part-2 h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.part-2 h1 span {
+    font-weight: bold;
+}
+.part-2 .input {
+    background-color: white;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-radius: 20px;
+}
+.part-2 input {
+    border: none;
+}
+.part-2 a {
+    color: #1d1e34;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: white;
+    border: none;
+    outline: none;
+}
+/* media */
+@media screen and (max-width: 768px) {
+    .main {
+        height: 50vh;
+    }
+    .header .circle {
+        width: 18px;
+        height: 18px;
+    }
+    .header h2 {
+        font-size: 16px;
+    }
+    .header button {
+        padding: 9px 11px;
+        font-size: 13px;
+    }
+    .part-2 {
+        width: 30%;
+        margin-left: 10%; 
+        margin-top: 0;
+    }
+    .part-2 h1 {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    .header button {
+        padding: 5px 5px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .header .circle {
+        width: 16px;
+        height: 16px;
+    }
+    .header h2 {
+        font-size: 15px;
+    }
+    .header button {
+        padding: 7px 9px;
+        font-size: 12px;
+    }
+}
+@media screen and (max-width: 325px) {
+    .header .circle {
+        width: 10px;
+        height: 10px;
+    }
+    .header h2 {
+        font-size: 10px;
+    }
+    .header button {
+        padding: 4px 6px;
+        font-size: 11px;
+    }
+}
