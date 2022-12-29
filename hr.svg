@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000" height="50" viewBox="0 0 1000 50">
+  <defs>
+    <style>
+      .cls-1 {
+        fill-rule: evenodd;
+        fill: url(#linear-gradient);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="315.638" y1="53.188" x2="682.427" y2="-4.906" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#792d2b"/>
+      <stop offset="1" stop-color="#ccab51"/>
+    </linearGradient>
+  </defs>
+  <image id="Background" width="1000" height="50" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAA+gAAAAyCAYAAADP7vEwAAABUElEQVR4nO3XMQHAMAzAsGz8Oacw4kOC4M/f7u4AAAAAp375AQAA4J5BBwAAgACDDgAAAAEGHQAAAAIMOgAAAAQYdAAAAAgw6AAAABBg0AEAACDAoAMAAECAQQcAAIAAgw4AAAABBh0AAAACDDoAAAAEGHQAAAAIMOgAAAAQYNABAAAgwKADAABAgEEHAACAAIMOAAAAAQYdAAAAAgw6AAAABBh0AAAACDDoAAAAEGDQAQAAIMCgAwAAQIBBBwAAgACDDgAAAAEGHQAAAAIMOgAAAAQYdAAAAAgw6AAAABBg0AEAACDAoAMAAECAQQcAAIAAgw4AAAABBh0AAAACDDoAAAAEGHQAAAAIMOgAAAAQYNABAAAgwKADAABAgEEHAACAAIMOAAAAAQYdAAAAAgw6AAAABBh0AAAACDDoAAAAEGDQAQAAIMCgAwAAwLWZefWDBGCYGamIAAAAAElFTkSuQmCC"/>
+  <path class="cls-1" d="M-27.887,53.2V-4.9H1025.95V53.2H-27.887Z"/>
+</svg>

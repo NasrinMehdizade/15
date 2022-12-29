@@ -3,137 +3,197 @@
     margin: 0;
     box-sizing: border-box;
 }
+/* @font-face {
+    font-family: "galano";
+    src: url("./FontsFree-Net-Galano-Grotesque3.ttf") format("truetype");
+} */
+body {
+    font-family: "galano";
+}
 .container {
-    width: 90%;
+    width: 75%;
     margin: auto;
 }
-/*main*/
-
-.main {
-    width: auto;
-    height: 100vh;
-    background-image: url("./Untitled-2.png");
-    background-repeat: no-repeat;
-    background-size: 100%;
+.line-3 {
+    padding: 20px 0;
+    background-color: #d8e0e7;
 }
-.header {
-    padding-top: 10px;
+.line-3 .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.line-3 .container .input {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    padding: 8px;
+    border-radius: 5px;
+    box-shadow: 1px 1px rgba(0, 0, 0, .2);
+    background-color: white;
 }
-.header .left {
+.line-3 .container h3 span {
+    font-weight: bold;
+}
+.input input {
+    color: #61636c;
+    border: none;
+}
+.input hr {
+    color: #dadee7;
+    margin: 0 10px;
+}
+.input button {
+    color: #291bad;
+    text-shadow: .2px .5px #7a68fa;
+    font-weight: bold;
+    border: none;
+    background-color: white;
+}
+.line-4 {
+    width: 100%;
+    height: 200vh;
+    background-image: url("./4.png");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+.line-4 .container {
     display: flex;
     flex-direction: row;
     align-items: center;
-}
-.header .circle {
-    width: 20px;
-    height: 20px;
-    border-radius: 100%;
-    border: 1px solid #1d0fa1;
-    background-color: #170dd8;
-}
-.header h2 {
-    color: #170d7f;
-    margin-left: 5px;
-}
-.header button {
-    color: white;
-    border: none;
-    outline: none;
-    padding: 10px 12px;
-    border-radius: 20px;
-    background-color: #1916e7;
-}
-.part-2 {
-    width: 40%;
-    margin-left: 10%; 
+    gap: 5%;
     margin-top: 200px;
 }
-.part-2 h5 {
-    color: #7b7e7f;
-    margin-bottom: 20px;
+.line-4 .container .left {
+    width: 50%;
 }
-.part-2 h1 {
-    font-size: 40px;
-    margin-bottom: 20px;
-}
-.part-2 h1 span {
-    font-weight: bold;
-}
-.part-2 .input {
-    background-color: white;
-    padding: 10px 20px;
+.line-4 .container .part-1 {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    border-radius: 20px;
+    align-items: flex-end;
+    gap: 2%;
+    margin-bottom: 30px;
 }
-.part-2 input {
-    border: none;
+.line-4 .container img {
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
 }
-.part-2 a {
-    color: #1d1e34;
-    font-weight: bold;
-    text-decoration: none;
+.line-4 .container .part-1 h2 {
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+.line-4 .container .part-1 h3 {
+    color: #78798d;
+}
+.line-4 .container .right {
+    width: 50%
+}
+.line-4 .container .right h1 {
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+.line-4 .container .right hr {
+    width: 25%;
+    margin-bottom: 20px;
+}
+.line-4 .container .right h3 {
+    margin-bottom: 20px;
+    color: #78798d;
+}
+.line-4 .line-5 {
+    text-align: center;
+    margin-top: 200px;
+}
+.line-4 .line-5 h5.h5 {
+    margin-bottom: 5px;
+}
+.line-4 .line-5 h2 {
+    margin-bottom: 25px;
+}
+.line-4 .line-5 .boxes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5%;
+}
+.line-4 .line-5 .boxes .box {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    gap: 2%;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+.line-4 .line-5 .boxes .box .top {
+    color: white;
+    background-color: #0c18dc;
+    padding: 10px;
+    border-bottom: 1px solid gray;
+}
+.line-4 .line-5 .boxes .box .top h3 {
+    margin-bottom: 5px;
+    text-shadow: .1px .1px 1px black;
+}
+.line-4 .line-5 .boxes .box .top h5 {
+    color: #7356ff;
+    text-shadow: .1px .1px 1px black;
+}
+.line-4 .line-5 .boxes .box .center {
+    padding: 40px 10px;
+}
+.line-4 .line-5 .boxes .box .button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 10px;
+    border-top: 1px solid gray;
+}
+.line-4 .line-5 .boxes .box .center-1 {
+    padding: 20px 10px;
+}
+.line-4 .line-5 .boxes .box h1.h1-60 {
+    color: #ff5618;
+}
+.t-1 {
+    display: flex;
+}
+.line-6 {
+    text-align: center;
+}
+.line-6 h6 {
+    margin-bottom: 20px;
+}
+.line-6 h3 {
+    margin-bottom: 50px;
+}
+.line-6 .layer-1 {
+    width: 100%;
+    height: 10vh;
+    background-color: #0c18dc;
+    z-index: 1;
+}
+.line-6 .layer-2 {
+    margin: auto;
+    width: 35%;
+    height: 15vh;
+    z-index: 2;
     background-color: white;
-    border: none;
-    outline: none;
+    box-shadow: 0px 0px 20px rgb(159, 155, 155);
 }
-/* media */
-@media screen and (max-width: 768px) {
-    .main {
-        height: 50vh;
-    }
-    .header .circle {
-        width: 18px;
-        height: 18px;
-    }
-    .header h2 {
-        font-size: 16px;
-    }
-    .header button {
-        padding: 9px 11px;
-        font-size: 13px;
-    }
-    .part-2 {
-        width: 30%;
-        margin-left: 10%; 
-        margin-top: 0;
-    }
-    .part-2 h1 {
-        font-size: 20px;
-        margin-bottom: 20px;
-    }
-    .header button {
-        padding: 5px 5px;
-    }
+.line-6 .layer-3 {
+    margin: auto;
+    width: 30%;
+    height: 20vh;
+    z-index: 3;
+    background-color: white;
+    box-shadow: 0px 0px 20px rgb(159, 155, 155);
 }
+.line-6 img {
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    border: 2px solid white;
+    box-shadow: 0px 0px 20px rgb(159, 155, 155);
 
-@media screen and (max-width: 425px) {
-    .header .circle {
-        width: 16px;
-        height: 16px;
-    }
-    .header h2 {
-        font-size: 15px;
-    }
-    .header button {
-        padding: 7px 9px;
-        font-size: 12px;
-    }
-}
-@media screen and (max-width: 325px) {
-    .header .circle {
-        width: 10px;
-        height: 10px;
-    }
-    .header h2 {
-        font-size: 10px;
-    }
-    .header button {
-        padding: 4px 6px;
-        font-size: 11px;
-    }
 }
