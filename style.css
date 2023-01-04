@@ -174,24 +174,25 @@ body {
     z-index: 1;
 }
 .line-6 .layer-2 {
-    margin: auto;
+    z-index: 2;
     width: 35%;
     height: 15vh;
-    z-index: 2;
+    margin: auto;
     background-color: white;
     box-shadow: 0px 0px 20px rgb(159, 155, 155);
 }
 .line-6 .layer-3 {
+    z-index: 3;
     margin: auto;
     width: 30%;
     height: 20vh;
-    z-index: 3;
     background-color: white;
     box-shadow: 0px 0px 20px rgb(159, 155, 155);
 }
 .line-6 img {
-    width: 60px;
-    height: 60px;
+    z-index: 4;
+    width: 100px;
+    height: 100px;
     border-radius: 100%;
     border: 2px solid white;
     box-shadow: 0px 0px 20px rgb(159, 155, 155);
